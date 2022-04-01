@@ -1,23 +1,23 @@
 @font-face {
   font-family: 'Libre Baskerville';
-  src: url('/assets/fonts/LibreBaskerville-Regular.ttf');
+  src: url('./assets/fonts/LibreBaskerville-Regular.ttf');
 }
 
 @font-face {
   font-family: 'Work Sans';
-  src: url(/assets/fonts/Work_Sans/WorkSans-Bold.ttf);
+  src: url(./assets/fonts/Work_Sans/WorkSans-Bold.ttf);
   font-weight: 700;
 }
 
 @font-face {
   font-family: 'Work Sans';
-  src: url(/assets/fonts/Work_Sans/WorkSans-Light.ttf);
+  src: url(./assets/fonts/Work_Sans/WorkSans-Light.ttf);
   font-weight: 300;
 }
 
 @font-face {
   font-family: 'Work Sans';
-  src: url(/assets/fonts/Work_Sans/WorkSans-Regular.ttf);
+  src: url(./assets/fonts/Work_Sans/WorkSans-Regular.ttf);
   font-weight: 500;
 }
 
@@ -67,7 +67,7 @@ body {
   color: var(--primary);
 
   background-image: linear-gradient(0deg, #fffffff9, #fffffff9),
-    url(/assets/images/background.png);
+    url(./assets/images/background.png);
   background-attachment: fixed;
 }
 
@@ -81,7 +81,7 @@ body {
       rgba(0, 0, 0, 0),
       white
     ),
-    url(/assets/images/header-image.png);
+    url(./assets/images/header-image.png);
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -418,6 +418,6 @@ section.contact-us ul img {
         rgba(0, 0, 0, 0),
         rgb(0, 0, 0)
       ),
-      url(/assets/top-banner.jpeg);
+      url(./assets/top-banner.jpeg);
   }
 } */
