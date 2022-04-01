@@ -76,6 +76,10 @@ body {
   background-attachment: fixed;
 }
 
+body > * {
+  overflow-x: hidden;
+}
+
 .top {
   background-image: linear-gradient(
       180deg,
