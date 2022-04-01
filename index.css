@@ -35,6 +35,10 @@
   color: var(--white);
 }
 
+html {
+  overflow-x: hidden;
+}
+
 img {
   width: 100%;
 }
