@@ -76,10 +76,6 @@ body {
   background-attachment: fixed;
 }
 
-body > * {
-  overflow-x: hidden;
-}
-
 .top {
   background-image: linear-gradient(
       180deg,
@@ -157,9 +153,9 @@ a.apply-now:active {
 }
 
 .split .image-part {
-  padding: 1rem;
-  display: grid;
-  place-items: center;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .split .image-part img {
@@ -177,9 +173,25 @@ section {
   background-color: var(--white);
 }
 
-.scholarship-costs {
+section.about-us .image-part {
+  background-image: url(./assets/images/about-us.png);
+}
+
+section.for-students .image-part {
+  background-image: url(./assets/images/for-students.png);
+}
+
+section.for-companies .image-part {
+  background-image: url(./assets/images/about-us.png);
+}
+
+section.scholarship-costs {
   padding-left: 5rem;
   padding-right: 5rem;
+}
+
+section.scholarship-costs .image-part {
+  background-image: url(./assets/images/scholarship-costs.png);
 }
 
 .exclamation {
@@ -195,13 +207,13 @@ section {
   height: 60px;
 }
 
-.payment-info {
+section.payment-info {
   padding: 0 5rem;
   padding-bottom: 3rem;
   align-content: start;
 }
 
-.payment-info aside {
+section.payment-info aside {
   display: grid;
   grid-auto-flow: column;
   place-content: center;
@@ -210,7 +222,7 @@ section {
   font-size: 1.2rem;
 }
 
-.payment-info aside p {
+section.payment-info aside p {
   max-width: 500px;
 }
 
@@ -231,13 +243,13 @@ section.world-class-education {
   position: relative;
 }
 
-.world-class-education .divider {
+section.world-class-education .divider {
   width: 70%;
   height: 5px;
   background: linear-gradient(90deg, #ffffffaa, #ffffff40, #ffffffaa);
 }
 
-.world-class-education section.brands {
+section.world-class-education section.brands {
   padding: 3rem 0;
   border-radius: 1rem;
   position: absolute;
@@ -248,7 +260,7 @@ section.world-class-education {
   place-items: center;
 }
 
-.world-class-education section.brands img {
+section.world-class-education section.brands img {
   width: 120%;
 }
 
@@ -278,10 +290,8 @@ section.programme-dates {
   position: relative;
 }
 
-section.programme-dates img {
-  position: absolute;
-  width: 50%;
-  margin-right: 100px;
+section.programme-dates .image-part {
+  background-image: url(./assets/images/programme-dates.png);
 }
 
 section.programme-dates .start-date {
