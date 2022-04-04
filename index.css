@@ -146,6 +146,7 @@ a.apply-now:active {
 .split {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  position: relative;
 }
 
 .split .text-part {
@@ -471,12 +472,21 @@ section.contact-us ul img {
     position: absolute;
     width: 100px;
     height: 100px;
-    right: 5rem;
+    right: 5%;
+    top: 3%;
   }
 }
 
-@media screen and (min-width: 1070px) {
-  /* section.world-class-education section.brands {
-    bottom: -30%;
-  } */
+@media screen and (max-width: 645px) {
+  .top {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5),
+        white
+      ),
+      url(./assets/images/header-image.png);  
 }
