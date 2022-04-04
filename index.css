@@ -262,6 +262,8 @@ section.world-class-education section.brands {
 
   display: grid;
   place-items: center;
+
+  box-shadow: 0 0 15px 0 #00000015;
 }
 
 section.world-class-education section.brands img {
@@ -457,7 +459,24 @@ section.contact-us ul img {
   }
 
   section.world-class-education {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
+
+  .split {
+    grid-template-columns: 1fr;
+  }
+
+  .image-part {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 5rem;
+  }
+}
+
+@media screen and (min-width: 1070px) {
+  /* section.world-class-education section.brands {
+    bottom: -30%;
+  } */
 }
