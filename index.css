@@ -1,24 +1,28 @@
 @font-face {
   font-family: 'Libre Baskerville';
   src: url('./assets/fonts/LibreBaskerville-Regular.ttf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Work Sans';
   src: url(./assets/fonts/Work_Sans/WorkSans-Bold.ttf);
   font-weight: 700;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Work Sans';
   src: url(./assets/fonts/Work_Sans/WorkSans-Light.ttf);
   font-weight: 300;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Work Sans';
   src: url(./assets/fonts/Work_Sans/WorkSans-Regular.ttf);
   font-weight: 500;
+  font-display: swap;
 }
 
 * {
@@ -76,7 +80,7 @@ body {
   color: var(--primary);
 
   background-image: linear-gradient(0deg, #fffffff9, #fffffff9),
-    url(./assets/images/background.png);
+    url(./assets/images/background.webp);
   background-attachment: fixed;
 }
 
@@ -90,7 +94,7 @@ body {
       rgba(0, 0, 0, 0),
       white
     ),
-    url(./assets/images/header-image.png);
+    url(./assets/images/header-image.webp);
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -179,15 +183,15 @@ section {
 }
 
 section.about-us .image-part {
-  background-image: url(./assets/images/about-us.png);
+  background-image: url(./assets/images/about-us.webp);
 }
 
 section.for-students .image-part {
-  background-image: url(./assets/images/for-students.png);
+  background-image: url(./assets/images/for-students.webp);
 }
 
 section.for-companies .image-part {
-  background-image: url(./assets/images/for-companies.png);
+  background-image: url(./assets/images/for-companies.webp);
 }
 
 section.scholarship-costs {
@@ -196,7 +200,7 @@ section.scholarship-costs {
 }
 
 section.scholarship-costs .image-part {
-  background-image: url(./assets/images/scholarship-costs.png);
+  background-image: url(./assets/images/scholarship-costs.webp);
 }
 
 .exclamation {
@@ -298,7 +302,7 @@ section.programme-dates {
 }
 
 section.programme-dates .image-part {
-  background-image: url(./assets/images/programme-dates.png);
+  background-image: url(./assets/images/programme-dates.webp);
 }
 
 section.programme-dates .start-date {
@@ -488,6 +492,6 @@ section.contact-us ul img {
         rgba(0, 0, 0, 0.5),
         white
       ),
-      url(./assets/images/header-image.png);
+      url(./assets/images/header-image.webp);
   }
 }
