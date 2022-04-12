@@ -103,17 +103,43 @@ body {
   position: relative;
 
   padding: 2rem 3rem;
+}
 
+.top .top-header {
   display: grid;
-  align-content: start;
-  gap: 1.5rem;
-  grid-template-columns: 300px;
+  grid-template-columns: auto 1fr;
+}
+
+.top .nav .nav-list {
+  list-style: none;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: end;
+  align-items: center;
+  padding-top: 1rem;
+  gap: 0.5rem;
+}
+
+.top .nav .nav-item a {
+  color: white;
+  font-weight: 700;
+}
+
+.top .nav .nav-item.active a {
+  text-decoration: none;
 }
 
 .logo {
   width: 220px;
   margin-bottom: 20px;
   margin-left: -5px;
+}
+
+.top .top-info {
+  display: grid;
+  align-content: start;
+  gap: 1.5rem;
+  grid-template-columns: 300px;
 }
 
 a.apply-now {
@@ -445,10 +471,6 @@ section.contact-us ul img {
 }
 
 @media screen and (max-width: 750px) {
-  footer {
-    height: 600px;
-  }
-
   section.contact-us {
     grid-template-columns: 1fr;
     text-align: center;
@@ -479,6 +501,10 @@ section.contact-us ul img {
     right: 5%;
     top: 3%;
   }
+
+  footer {
+    height: 600px;
+  }
 }
 
 @media screen and (max-width: 645px) {
@@ -493,5 +519,23 @@ section.contact-us ul img {
         white
       ),
       url(./assets/images/header-image.webp);
+  }
+
+  .logo {
+    width: 160px;
+  }
+
+  .top .nav .nav-list {
+    padding-top: 0.5rem;
+  }
+
+  section.scholarship-costs {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
+  section.clients li {
+    width: 120px;
+    height: 100px;
   }
 }
