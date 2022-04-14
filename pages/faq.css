@@ -14,8 +14,12 @@ h3 {
   display: inline;
 }
 
+details {
+  cursor: pointer;
+}
+
 details p {
-  width: 70ch;
+  max-width: 70ch;
 }
 
 summary {
