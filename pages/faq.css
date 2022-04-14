@@ -1,0 +1,23 @@
+section.apply-now {
+  padding-top: 1rem;
+  padding-bottom: 8rem;
+}
+
+section.faq {
+  display: grid;
+  padding: 3rem;
+  gap: 1rem;
+}
+
+h3 {
+  font-weight: 900;
+  display: inline;
+}
+
+details p {
+  width: 70ch;
+}
+
+summary {
+  margin-bottom: 0.5rem;
+}

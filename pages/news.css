@@ -1,0 +1,10 @@
+section.apply-now {
+  padding-top: 1rem;
+  padding-bottom: 8rem;
+}
+
+section.news {
+  display: grid;
+  padding: 3rem;
+  gap: 1rem;
+}
