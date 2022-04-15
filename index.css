@@ -29,6 +29,7 @@
   --primary: #102232;
   --primary-light: #566478;
   --white: #fff;
+  font-size: 16px;
 }
 
 * {
