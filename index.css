@@ -519,6 +519,7 @@ section.contact-us ul img {
         white
       ),
       url(./assets/images/header-image.webp);
+    height: 400px;
   }
 
   .logo {
