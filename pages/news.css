@@ -39,11 +39,26 @@ section.news {
   grid-template-rows: 200px 1fr auto;
   gap: 1rem;
   cursor: pointer;
+
+  border-radius: 0.1rem;
+  overflow: hidden;
+
+  box-shadow: 0 0 10px 0 #00000020;
+  transition: box-shadow 0.2s;
+}
+
+.news-item:hover {
+  box-shadow: 0 0 20px 0 #00000020;
 }
 
 .news-item__thumbnail {
   height: 100%;
   object-fit: cover;
+}
+
+.news-item__text,
+.news-item__info {
+  padding: 1rem;
 }
 
 .news-item__title {
